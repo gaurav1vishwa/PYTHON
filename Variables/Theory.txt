@@ -1,0 +1,27 @@
+             Variable 
+
+Standard Definition
+
+A variable in Python is a named reference (or label) that points to an object
+
+stored in memory. Unlike some languages, Python variables don't have a fixed type
+
+ — they are simply names bound to objects, and that binding can change at any time
+
+
+Rules for Creating Variable Names
+Must follow (mandatory rules):
+
+1. Allowed characters — Only letters (a-z, A-Z), digits (0-9), and underscore (_).
+
+2. Cannot start with a digit — 1name is invalid, name1 is valid.
+
+3. No spaces or special symbols — -, @, #, %, !, etc. are not allowed.
+
+4. Case-sensitive — Name, name, and NAME are three different variables.
+
+5. Cannot be a reserved keyword — words like if, else, for, while, class, def, 
+
+6. return, True, False, None, import, etc. cannot be used as variable names.
+
+7. No length limit, but names should stay reasonably short and meaningful.

@@ -1,0 +1,13 @@
+IMPORTANT PLUGIN TO RUN THE PYTHON FILES
+
+python
+python debugger
+pylance
+
+
+to run the python file from the terminal so run this commond :-  python fileName.py 
+(but make sure you are in right folder and directory as well);
+
+
+\n is used to make the text in the new line 
+end=" " is used to concanate the two line;
