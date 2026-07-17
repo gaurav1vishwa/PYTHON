@@ -1,0 +1,20 @@
+operands - a , b, c 
+
+types of operators 
+
+1 arithmatic operators + - * % / // ** 
+
+2. Assignment operators = += -= *= /= %= //= **=
+
+3. Comparison operators == != > < >= <=
+
+4. Logical operators and or not
+
+5. Bitwise operators & | ^ ~ << >>
+
+6. Membership operators in not in
+
+7. Identity operators is is not
+
+8. Ternary operator a if condition else b
+
