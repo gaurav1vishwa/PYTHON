@@ -1,0 +1,5 @@
+to take the input form the user and process it accordingly. The input can be in various formats such as
+ text, numbers, or even files. Once the input is received, it can be validated to ensure 
+ it meets the required criteria before proceeding with any further operations.
+
+ 
