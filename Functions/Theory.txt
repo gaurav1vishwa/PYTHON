@@ -1,0 +1,31 @@
+def function_name(parameters):
+    """
+    Description of the function.
+
+    Args:
+        parameters: Description of the parameters.
+
+    Returns:
+        Description of the return value.
+    """
+    # Function implementation goes here
+    pass
+
+
+    DIFFERENCE TYPE OF FUNCTIONS
+
+1. NO ARGUMENTS AND NO RETURN VALUE
+def greet():
+    print("Hello!")
+
+2. NO ARGUMENTS BUT RETURN VALUE
+def get_greeting():
+    return "Hello!"
+
+3. ARGUMENTS BUT NO RETURN VALUE
+def greet_user(name):
+    print(f"Hello, {name}!")
+
+4. ARGUMENTS AND RETURN VALUE
+def get_user_info(name, age):
+    return f"{name} is {age} years old."
