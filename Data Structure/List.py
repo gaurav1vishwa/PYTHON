@@ -39,3 +39,61 @@ print(fruit_list);
 # we can also delete the all itme from the list
 fruit_list.clear();
 print(fruit_list); # empty list
+
+
+
+#membership operator
+
+number =[2,4,1,9,3];
+print(2 in number);
+print(33 in number);
+
+
+# read item ine by one 
+color  = ["Green","Red","pink","yellow"];
+for c in color:
+    print(c);
+
+favcolor = color.copy();# use of this we can copy the original list and store in th other variable
+print(favcolor);
+
+#print the length of the string
+print(len(favcolor));
+print(max(number)); # give the max value of the list
+print(min(number)); # give the min value of the list
+print(max(color)); # for the string it give the value using the laxcographically order
+print(sum(number)) # give the sum of all the items
+
+new_num = number.copy();
+print(new_num)
+new_num.sort(); # sort the number in the assending order 
+print(new_num)
+new_num.reverse(); # sort the number or list item in decending order
+print(new_num)
+
+new_num.sort(reverse=True); # also use to rever (decending order) of the list
+print(new_num)
+
+
+#append the two or more list
+list1 = [2,3,4];
+list2 = [5,6,7];
+new_list = list1 + list2;
+print(new_list);
+new_list = list2.extend(list1);
+print(new_list);
+
+
+print(color.index("yellow"));
+print(color.count("red"));
+
+#split splite the word and pring the list of the word
+words = input().split();
+print(words);
+
+#list in list
+list_in_list = [["Gaurav" ,22 ,"Rewa"], ["Rahul",32 ,"Bharuch"],["priya",32,"Uttar Pradesh"]];
+print(list_in_list);
+for i in list_in_list:
+    print(i);
+
