@@ -93,8 +93,6 @@ print(setd);
 # Frozensets -its too importnat
 fs = frozenset([1,2,3,5,6,7,4]);
 # fs.add(10) , not possible it gave the error
-print(fs); 
-
-
+print(fs)
 
 
