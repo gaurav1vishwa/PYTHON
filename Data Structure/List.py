@@ -88,8 +88,8 @@ print(color.index("yellow"));
 print(color.count("red"));
 
 #split splite the word and pring the list of the word
-words = input().split();
-print(words);
+#words = input().split();
+#print(words);
 
 #list in list
 list_in_list = [["Gaurav" ,22 ,"Rewa"], ["Rahul",32 ,"Bharuch"],["priya",32,"Uttar Pradesh"]];
@@ -97,3 +97,8 @@ print(list_in_list);
 for i in list_in_list:
     print(i);
 
+
+#List Slicing in python
+
+list_slicing = [1,2,3,4,5,6,7,8,9,42];
+print(list_slicing);
