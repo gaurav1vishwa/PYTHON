@@ -64,7 +64,7 @@ c.stop()
 # 100% abstraction only can be archived when all the method in the abstract class should be abstract method 
 
 
-from abc import ABC, abstractmethod
+from abc import ABC,AB, abstractmethod
 
 class Vehicle(ABC):
     @abstractmethod
@@ -85,3 +85,4 @@ class Car(Vehicle):
 c = Car();
 c.start()
 c.stop()
+

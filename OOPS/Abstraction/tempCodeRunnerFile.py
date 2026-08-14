@@ -1,21 +1,25 @@
 from abc import ABC, abstractmethod
-
 class Vehicle(ABC):
     @abstractmethod
     def start(self):
         pass;
-# this is concrete mehod
+
+
+    @abstractmethod
     def stop(self):
-        print("Every vehicle stop manually");
+        pass;
 
+class AutoCar(Vehicle, ABC):
+    pass;
 
-class Car(Vehicle):
+class SelfAutoCar(Vehicle,ABC):
     def start(self):
-        print("Every can start automatically");
+        print("SelfAutoCar start");
 
     def stop(self):
-        print("Every car stop automatically");
+        print("SelfAutoCar stop");
 
-c = Car();
-c.start()
-c.stop()
+s = SelfAutoCar();
+s.start();
+s.stop();
+
